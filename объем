@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    unsigned int a, b, c;
+    scanf("%u", &a);
+    scanf("%u", &b);
+    scanf("%u", &c);
+    printf("объем: %u", a*b*c);
+    return 0;
+}
